@@ -2,28 +2,28 @@
 
 1. Клонируйте репозиторий:
 
-git clone https://github.com/your-username/datasorter.git
+  git clone https://github.com/your-username/datasorter.git
 
-cd Datasorter
+  cd Datasorter
 
 2. Запустите программу:
 
-python main.py
+  python main.py
 
 3. Настройки находятся в файле config.py:
 
-INPUT_FILE = "data/input.csv"
+  INPUT_FILE = "data/input.csv"
 
-OUTPUT_FILE = "output/sorted.csv"
+  OUTPUT_FILE = "output/sorted.csv"
 
-SORT_COLUMN = "age"
+  SORT_COLUMN = "age"
 
-ASCENDING = True
+  ASCENDING = True
 
 
 
 **Обработка ошибок**
 
-Если колонка не найдена → будет вызвана ошибка
+  Если колонка не найдена → будет вызвана ошибка
 
-Если файл пуст → программа завершится с предупреждением
+  Если файл пуст → программа завершится с предупреждением
