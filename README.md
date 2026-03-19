@@ -4,7 +4,7 @@
 
 git clone https://github.com/your-username/datasorter.git
 
-cd datasorter
+cd Datasorter
 
 2. Запустите программу:
 
